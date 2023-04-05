@@ -56,14 +56,14 @@
                   <div class="top-left">
                     <ul>
                       <li>
-                        <i class="far fa-envelope"></i> <b>Email Us :</b>
+                        <i class="far fa-envelope"></i> <b  data-i18n="email_us">Email Us :</b>
                         <a href="mailto:info@bloudanfood.com"
                           >info@bloudanfood.com</a
                         >
                       </li>
                       <li>
                         <i class="far fa-clock"></i>
-                        <b>Working Hours :</b> Monday - Friday, 08 am - 05 pm
+                        <b  data-i18n="working_hours">Working Hours :</b> <span>Monday - Friday, 08 am - 05 pm</span>
                       </li>
                     </ul>
                   </div>
@@ -117,7 +117,7 @@
                     <div class="mobile-logo my-15">
                       <a href="index.html">
                         <img
-                          src="assets/images/logos/logo.png"
+                          src="assets/images/logos/logoS.webp"
                           alt="Logo"
                           title="Logo"
                         />
@@ -139,15 +139,15 @@
 
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
-                      <li><a href="index.html">Home</a></li>
+                      <li><a href="index.html" data-i18n="home">Home</a></li>
                       <!-- <li class="dropdown">
                         <a href="#">Home</a>
                         <ul>
                           <li><a href="index2.html">Home Two</a></li>
                         </ul>
                       </li> -->
-                      <li><a href="about.html">About us</a></li>
-                      <li><a href="services.html">services</a></li>
+                      <li><a href="about.html" data-i18n="about">About us</a></li>
+                      <li><a href="services.html" data-i18n="service">services</a></li>
                       <!-- <li class="dropdown">
                         <a href="#">pages</a>
                         <ul>
@@ -167,11 +167,11 @@
                           <li><a href="404.html">404 error</a></li>
                         </ul>
                       </li> -->
-                      <li>
+                      <li data-i18n="portfolio">
                         <a href="portfolio-grid.html">Portfolio</a>
                       </li>
-                      <li><a href="shop-grid.html">shop</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li data-i18n="products"><a href="shop-grid.html">shop</a></li>
+                      <li data-i18n="contact"><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -206,7 +206,7 @@
                   <i class="far fa-user-circle"></i>
                 </button> -->
 
-                <a href="contact.html" class="theme-btn"
+                <a href="contact.html" class="theme-btn" data-i18n="consultations"
                   >Consultations <i class="fas fa-angle-double-right"></i
                 ></a>
 
@@ -218,6 +218,10 @@
                     <i class="far fa-ellipsis-h"></i>
                   </button>
                 </div>
+
+                <button class="click">
+                  btn
+                </button>
               </div>
             </div>
           </div>
@@ -287,14 +291,14 @@
               <div class="row align-items-center">
                 <div class="col-lg-6">
                   <div class="slider-content">
-                    <div class="sub-title mb-20">Welcome to Munfirm</div>
-                    <h1>Organic Foods & Vegetables</h1>
-                    <h6>25 Years of experience in agriculture farming</h6>
-                    <div class="slider-btns mt-30">
+                    <div class="sub-title mb-20" data-i18n="sliderOneHeading">Welcome to Munfirm</div>
+                    <h1 data-i18n="sliderOneHeading">Organic Foods & Vegetables</h1>
+                    <h6 data-i18n="sliderOneText">25 Years of experience in agriculture farming</h6>
+                    <div data-i18n="sliderOneHref" class="slider-btns mt-30">
                       <a href="shop-grid.html" class="theme-btn"
                         >Shop Now <i class="fas fa-angle-double-right"></i
                       ></a>
-                      <a href="about.html" class="theme-btn style-two"
+                      <a data-i18n="sliderOneLearn" href="about.html" class="theme-btn style-two"
                         >Learn More <i class="fas fa-angle-double-right"></i
                       ></a>
                     </div>
@@ -363,15 +367,15 @@
                 </div>
                 <div class="col-lg-6">
                   <div class="slider-content">
-                    <div class="sub-title mb-20">Welcome to Munfirm</div>
-                    <h1>Organic Foods & Vegetables</h1>
-                    <h6>25 Years of experience in agriculture farming</h6>
+                    <div class="sub-title mb-20" data-i18n="sliderTwoWelcome">Welcome to Munfirm</div>
+                    <h1 data-i18n="sliderTwoHeading">Organic Foods & Vegetables</h1>
+                    <h6 data-i18n="sliderTwoText">25 Years of experience in agriculture farming</h6>
                     <div class="slider-btns mt-30">
-                      <a href="shop-grid.html" class="theme-btn"
-                        >Shop Now <i class="fas fa-angle-double-right"></i
+                      <a href="shop-grid.html" class="theme-btn" 
+                        ><span data-i18n="sliderTwoHref">Shop Now </span> <i class="fas fa-angle-double-right"></i
                       ></a>
                       <a href="about.html" class="theme-btn style-two"
-                        >Learn More <i class="fas fa-angle-double-right"></i
+                        ><span data-i18n="sliderTwoLearn">Learn More</span> <i class="fas fa-angle-double-right"></i
                       ></a>
                     </div>
                   </div>
@@ -426,15 +430,15 @@
           <div class="row align-items-end pb-35">
             <div class="col-lg-7 wow fadeInUp delay-0-2s">
               <div class="section-title mb-20">
-                <span class="sub-title mb-20"
+                <span class="sub-title mb-20" data-i18n="categorySpan"
                   >Popular Foods and Vegetables</span
                 >
-                <h2>Quality Fruits & Vegetables</h2>
+                <h2 data-i18n="categoryHeading">Quality Fruits & Vegetables</h2>
               </div>
             </div>
             <div class="col-lg-5 wow fadeInUp delay-0-4s">
               <div class="text mb-20">
-                <p>
+                <p data-i18n="categoryText">
                   On the other hand we denounce with righteou indignation and
                   dislike men who are so beguiled and demoralized by the charms
                   of pleasure of the moment so blinded by desire
@@ -447,42 +451,42 @@
               <div class="icon">
                 <img src="assets/images/category/icon1.png" alt="Icon" />
               </div>
-              <h5><a href="services.html">Strawberry jam</a></h5>
+              <h5><a href="services.html" data-i18n="categoryWrap1">Strawberry jam</a></h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div class="category-item wow fadeInUp delay-0-4s">
               <div class="icon">
                 <img src="assets/images/category/icon2.png" alt="Icon" />
               </div>
-              <h5><a href="services.html">JAM</a></h5>
+              <h5><a href="services.html" data-i18n="categoryWrap2">JAM</a></h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div class="category-item wow fadeInUp delay-0-5s">
               <div class="icon">
                 <img src="assets/images/category/icon3.png" alt="Icon" />
               </div>
-              <h5><a href="services.html">MOLASESS</a></h5>
+              <h5><a href="services.html" data-i18n="categoryWrap3">MOLASESS</a></h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div class="category-item wow fadeInUp delay-0-6s">
               <div class="icon">
                 <img src="assets/images/category/icon4.png" alt="Icon" />
               </div>
-              <h5><a href="services.html">OLIVE OIL AND VINEGAR</a></h5>
+              <h5><a href="services.html" data-i18n="categoryWrap4">OLIVE OIL AND VINEGAR</a></h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div class="category-item wow fadeInUp delay-0-7s">
               <div class="icon">
                 <img src="assets/images/category/icon5.png" alt="Icon" />
               </div>
-              <h5><a href="services.html">PASTE</a></h5>
+              <h5><a href="services.html" data-i18n="categoryWrap5">PASTE</a></h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
             <div class="category-item wow fadeInUp delay-0-7s">
               <div class="icon">
                 <img src="assets/images/category/icon5.png" alt="Icon" />
               </div>
-              <h5><a href="services.html">SAUCE</a></h5>
+              <h5><a href="services.html" data-i18n="categoryWrap6">SAUCE</a></h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
           </div>
@@ -513,8 +517,8 @@
             <div class="col-lg-6">
               <div class="about-content rpt-65 wow fadeInRight delay-0-2s">
                 <div class="section-title mb-35">
-                  <span class="sub-title mb-20">About Company</span>
-                  <h2>Organic & Helathy Foods Provider Farming</h2>
+                  <span class="sub-title mb-20" data-i18n="aboutCompany">About Company</span>
+                  <h2 data-i18n="aboutHeading">Organic & Helathy Foods Provider Farming</h2>
                 </div>
                 <ul class="nav jusctify-content-between">
                   <li>
@@ -524,19 +528,19 @@
                       href="#agriculture"
                     >
                       <i class="flaticon-spa"></i>
-                      <h4>Agriculture<br />& Foods</h4>
+                      <h4 data-i18n="agriculture1">Agriculture<br />& Foods</h4>
                     </a>
                   </li>
                   <li>
                     <a class="nav-link" data-toggle="tab" href="#vegetables">
                       <i class="flaticon-spa"></i>
-                      <h4>Vegetables<br />& Fruits</h4>
+                      <h4 data-i18n="vegetables1">Vegetables<br />& Fruits</h4>
                     </a>
                   </li>
                 </ul>
                 <div class="tab-content pt-25">
                   <div class="tab-pane fade show active" id="agriculture">
-                    <p>
+                    <p data-i18n="tabContent1">
                       We focus our energy and resources where unlocking the
                       power of food can make the greatest positive impact on the
                       lives of people and the environment Products that are
@@ -552,13 +556,13 @@
                         style="border-radius: 50%"
                       />
                       <div class="title">
-                        <h4>Mahmoud Kaddoura</h4>
-                        <span>CEO & Founder</span>
+                        <h4 data-i18n="authorName">Mahmoud Kaddoura</h4>
+                        <span data-i18n="ceo">CEO & Founder</span>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane fade" id="vegetables">
-                    <p>
+                  <div class="tab-pane fade" id="vegetables" data-i18n="tabContent2">
+                    <p data-i18n="tabContent2">
                       We focus our energy and resources where unlocking the
                       power of food can make the greatest positive impact on the
                       lives of people and the environment Products that are
@@ -574,8 +578,8 @@
                         style="border-radius: 50%"
                       />
                       <div class="title">
-                        <h4>Mahmoud Kaddoura</h4>
-                        <span>CEO & Founder</span>
+                        <h4 data-i18n="authorName">Mahmoud Kaddoura</h4>
+                        <span data-i18n="ceo">CEO & Founder</span>
                       </div>
                       <!-- <img
                         src="assets/images/about/signature.png"
@@ -657,8 +661,8 @@
       <section class="product-section pt-100 rpt-70 pb-130 rpb-100">
         <div class="container-fluid">
           <div class="section-title text-center mb-60">
-            <span class="sub-title mb-20">Popular Foods and Vegetables</span>
-            <h2>Quality Fruits & Vegetables</h2>
+            <span class="sub-title mb-20" data-i18n="popularSpan">Popular Foods and Vegetables</span>
+            <h2 data-i18n="popularHeading">Quality Fruits & Vegetables</h2>
           </div>
           <div class="product-active">
             <div class="product-item wow fadeInUp delay-0-2s">
@@ -674,7 +678,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Organic Brocolli</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct1">Organic Brocolli</a></h5>
                 <span class="price">
                   <del>25</del>
                   <span>18</span>
@@ -693,7 +697,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Fresh Carrots</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct2">Fresh Carrots</a></h5>
                 <span class="price">
                   <span>49.58</span>
                 </span>
@@ -712,7 +716,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Organic Brocolli</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct3">Organic Brocolli</a></h5>
                 <span class="price">
                   <del>25</del>
                   <span>18</span>
@@ -732,7 +736,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Chiken Egg</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct4">Chiken Egg</a></h5>
                 <span class="price">
                   <del>55</del>
                   <span>36</span>
@@ -751,7 +755,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Fresh Gooseberry</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct5">Fresh Gooseberry</a></h5>
                 <span class="price">
                   <span>205</span>
                 </span>
@@ -770,7 +774,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Fresh Croissants</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct6">Fresh Croissants</a></h5>
                 <span class="price">
                   <del>25</del>
                   <span>18</span>
@@ -790,7 +794,7 @@
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5><a href="product-details.html">Chiken Egg’s</a></h5>
+                <h5><a href="product-details.html" data-i18n="popularProduct7">Chiken Egg’s</a></h5>
                 <span class="price">
                   <del>25</del>
                   <span>18</span>
@@ -887,12 +891,12 @@
             <div class="row align-items-center">
               <div class="col-lg-8">
                 <div class="section-title mt-20 mb-15">
-                  <span class="sub-title mb-15">Need Any Supports</span>
-                  <h3>Get Our Quality Foods</h3>
+                  <span class="sub-title mb-15" data-i18n="cta">Need Any Supports</span>
+                  <h3 data-i18n="ctaHeading">Get Our Quality Foods</h3>
                 </div>
               </div>
               <div class="col-lg-4 text-lg-right">
-                <a href="contact.html" class="theme-btn btn-white my-15"
+                <a href="contact.html" class="theme-btn btn-white my-15" data-i18n="ctaBtn"
                   >Get In Touch <i class="fas fa-angle-double-right"></i
                 ></a>
               </div>
@@ -909,8 +913,8 @@
             <div class="row align-items-end">
               <div class="col-lg-8">
                 <div class="section-title mb-25">
-                  <span class="sub-title mb-15">Photo Gallery</span>
-                  <h2>Insite Photo Gallery</h2>
+                  <span class="sub-title mb-15" data-i18n="photoGallerySpan">Photo Gallery</span>
+                  <h2 data-i18n="photoGalleryHeading">Insite Photo Gallery</h2>
                 </div>
               </div>
               <div class="col-lg-4 text-lg-right">
@@ -936,8 +940,8 @@
               />
               <div class="gallery-over">
                 <div class="content">
-                  <h4>Organic Fruits</h4>
-                  <p>Fresh Food</p>
+                  <h4 data-i18n="galleryHeading1">Organic Fruits</h4>
+                  <p data-i18n="galleryText1">Fresh Food</p>
                 </div>
                 <a href="portfolio-details.html" class="details-btn"
                   ><i class="fas fa-arrow-right"></i
@@ -949,12 +953,12 @@
                 src="assets/images/gellery/gallery2.jpg"
                 alt="Gallery"
                 width="300px"
-                style="height:349px"
+                style="height: 349px"
               />
               <div class="gallery-over">
                 <div class="content">
-                  <h4>Organic Fruits Juice</h4>
-                  <p>Fresh Food & Vegetable</p>
+                  <h4 data-i18n="galleryHeading2">Organic Fruits Juice</h4>
+                  <p data-i18n="galleryHeading2">Fresh Food & Vegetable</p>
                 </div>
                 <a href="portfolio-details.html" class="details-btn"
                   ><i class="fas fa-arrow-right"></i
@@ -969,8 +973,8 @@
               />
               <div class="gallery-over">
                 <div class="content">
-                  <h4>Organic Fruits</h4>
-                  <p>Vegetable</p>
+                  <h4 data-i18n="galleryHeading3">Organic Fruits</h4>
+                  <p data-i18n="galleryHeading3">Vegetable</p>
                 </div>
                 <a href="portfolio-details.html" class="details-btn"
                   ><i class="fas fa-arrow-right"></i
@@ -985,8 +989,8 @@
               />
               <div class="gallery-over">
                 <div class="content">
-                  <h4>Organic Fruits</h4>
-                  <p>Fresh Food</p>
+                  <h4 data-i18n="galleryHeading5">Organic Fruits</h4>
+                  <p data-i18n="galleryHeading5">Fresh Food</p>
                 </div>
                 <a href="portfolio-details.html" class="details-btn"
                   ><i class="fas fa-arrow-right"></i
@@ -1346,11 +1350,11 @@
         <div class="container">
           <div class="footer-top-newsletter py-80 mb-75">
             <div class="section-title">
-              <h2>Newsletter Subscribe</h2>
+              <h2 data-i18n="news">Newsletter Subscribe</h2>
             </div>
             <form action="#">
               <input type="email" placeholder="Email Address" required />
-              <button class="theme-btn">
+              <button class="theme-btn" data-i18n="subscribeNow">
                 subscribe now <i class="fas fa-angle-double-right"></i>
               </button>
             </form>
@@ -1360,10 +1364,10 @@
               <div class="footer-widget about-widget text-center">
                 <div class="footer-logo mb-30">
                   <a href="index.html">
-                    <img src="assets/images/logos/logo.png" alt="Logo" />
+                    <img src="assets/images/logos/logoS.webp" alt="Logo" />
                   </a>
                 </div>
-                <p>
+                <p data-i18n="footerText">
                   Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000
                   Şehitkamil/Gaziantep - TÜRKİYE
                 </p>
@@ -1379,18 +1383,17 @@
             </div>
             <div class="col-lg-4 col-md-6 order-md-1">
               <div class="footer-widget menu-widget two-column">
-                <h4 class="footer-title">Quick Links</h4>
+                <h4 class="footer-title" data-i18n="quickLinks">Quick Links</h4>
                 <ul>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Documentation</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="services.html">Elements</a></li>
-                  <li><a href="portfolio-grid.html">Our Projects</a></li>
-                  <li><a href="shop-grid.html">Best Products</a></li>
-                  <li><a href="farmers.html">Meet Farmers</a></li>
-                  <li><a href="service-details.html">Technology</a></li>
-                  <li><a href="blog-grid.html">Latest News</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="about.html" data-i18n="aboutFooter">About Us</a></li>
+                  <li><a href="contact.html" data-i18n="documentFooter">Documentation</a></li>
+                  <li><a href="services.html" data-i18n="servicesFooter">Services</a></li>
+                  <li><a href="services.html" data-i18n="elementsFooter">Elements</a></li>
+                  <li><a href="portfolio-grid.html" data-i18n="projectsFooter">Our Projects</a></li>
+                  <li><a href="shop-grid.html" data-i18n="bestProducts">Best Products</a></li>
+                  <li><a href="service-details.html" data-i18n="techFooter">Technology</a></li>
+                  <li><a href="blog-grid.html" data-i18n="latestFooter">Latest News</a></li>
+                  <li><a href="contact.html" data-i18n="contactFooter">Contact Us</a></li>
                   <li><a href="service-details.html">Vegetables</a></li>
                   <li><a href="contact.html">Setting & Privacy</a></li>
                 </ul>
@@ -1398,8 +1401,8 @@
             </div>
             <div class="col-lg-4 col-md-6 order-md-3">
               <div class="footer-widget contact-widget">
-                <h4 class="footer-title">Contact Us</h4>
-                <p>
+                <h4 class="footer-title" data-i18n="contactFooter">Contact Us</h4>
+                <p data-i18n="footerTitle">
                   Quis autem vel eum reprehenderit voluptate velit esse quamnue
                 </p>
                 <ul>
@@ -1488,6 +1491,17 @@
     <!--  WOW Animation -->
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom script -->
+    <script src="assets/js/main.js" type="module"></script>
     <script src="assets/js/script.js"></script>
+
+
+    <!-- <script>
+      var select = document.querySelector(".select");
+      console.log(select.value)
+      select.addEventListener("change", (e) => {
+        const result = document.querySelector(".result");
+        result.textContent = `You like ${e.target.value}`;
+      });
+    </script> -->
   </body>
 </html>

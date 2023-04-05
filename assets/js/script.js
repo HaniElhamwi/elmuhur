@@ -43,7 +43,7 @@
 -----------------------------------------------------------------------------------*/
 
 (function ($) {
-
+    const lang = localStorage.getItem("lang") || "ar"
     "use strict";
 
     $(document).ready(function () {
@@ -171,6 +171,7 @@
                 pauseOnHover: false,
                 slidesToScroll: 1,
                 slidesToShow: 1,
+                rtl: lang === 'ar' ? true: false,
                 prevArrow: '<button class="slider-prev"><i class="fas fa-chevron-left"></i></button>',
                 nextArrow: '<button class="slider-next"><i class="fas fa-chevron-right"></i></button>',
             });
@@ -189,6 +190,7 @@
                 pauseOnHover: false,
                 slidesToScroll: 1,
                 slidesToShow: 1,
+                rtl: lang === 'ar' ? true: false,
                 prevArrow: '<button class="slider-prev"><i class="fas fa-chevron-left"></i></button>',
                 nextArrow: '<button class="slider-next"><i class="fas fa-chevron-right"></i></button>',
             });
@@ -207,6 +209,7 @@
                 focusOnSelect: true,
                 slidesToShow: 6,
                 slidesToScroll: 2,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 1500,
@@ -256,6 +259,7 @@
                 focusOnSelect: true,
                 slidesToShow: 4,
                 slidesToScroll: 2,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 1200,
@@ -296,6 +300,7 @@
                 focusOnSelect: false,
                 slidesToShow: 4,
                 slidesToScroll: 2,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 1200,
@@ -337,6 +342,7 @@
                 focusOnSelect: false,
                 slidesToShow: 4,
                 slidesToScroll: 2,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 1200,
@@ -376,6 +382,7 @@
                 focusOnSelect: true,
                 slidesToShow: 6,
                 slidesToScroll: 2,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 1500,
@@ -425,6 +432,7 @@
                 speed: 1000,
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                rtl: lang === 'ar' ? true: false,
                 variableWidth: true,
                 prevArrow: $('.gallery-prev'),
                 nextArrow: $('.gallery-next'),
@@ -446,6 +454,7 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 variableWidth: true,
+                rtl: lang === 'ar' ? true: false,
                 prevArrow: $('.gallery-two-prev'),
                 nextArrow: $('.gallery-two-next'),
             });
@@ -488,6 +497,7 @@
                 arrows: false,
                 variableWidth: true,
                 dots: true,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 767,
@@ -511,6 +521,7 @@
                 speed: 400,
                 arrows: false,
                 dots: true,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 767,
@@ -536,6 +547,7 @@
                 speed: 1000,
                 slidesToShow: 6,
                 slidesToScroll: 1,
+                rtl: lang === 'ar' ? true: false,
                 responsive: [
                     {
                         breakpoint: 1200,
