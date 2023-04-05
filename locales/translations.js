@@ -115,6 +115,8 @@ const translations = {
     footerSetting: "Setting & Privacy",
     footerFaq: "Faqs",
     Footerpayment: "Payments",
+
+    langBtn:"عربي"
   },
   ar: {
     /* navbar */
@@ -230,6 +232,9 @@ const translations = {
     footerSetting: "الإعداد والخصوصية",
     footerFaq: "تذييل",
     Footerpayment: "المدفوعات",
+
+    langBtn:"En"
+
   },
 };
 
