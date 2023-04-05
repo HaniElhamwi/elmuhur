@@ -29,4 +29,7 @@ const setLanguage = (language) => {
     element.textContent = translations[language][translationKey];
   });
   document.dir = language === "ar" ? "rtl" : "ltr";
+
+  document.body.style.textAlign = lang ? 'right' : "left"
+
 };
