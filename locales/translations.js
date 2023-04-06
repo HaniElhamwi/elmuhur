@@ -201,9 +201,9 @@ const translations = {
     popularProduct2: "جزر طازج",
     popularProduct3: "بيض الدجاجه",
     popularProduct4: "بروكلي عضوي",
-    popularProduct5: "عنب الثعلب الطازج ",
+    /*popularProduct5: "عنب الثعلب الطازج ",
     popularProduct6: "عنب الثعلب الطازج ",
-    popularProduct7: "عنب الثعلب الطازج ",
+    popularProduct7: "عنب الثعلب الطازج ",*/
     popularOffer1: "خصم 45%",
     popularOffer2: "خصم 20%",
     popularOffer3: "خصم 30%",
