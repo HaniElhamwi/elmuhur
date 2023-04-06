@@ -3787,9 +3787,6 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
 .about-images {
   position: relative;
   margin-bottom: -30px; }
-  @media only screen and (min-width: 1400px) {
-    .about-images {
-      margin-left: -125px; } }
   @media only screen and (min-width: 1200px) {
     .about-images {
       margin-right: 65px; } }
