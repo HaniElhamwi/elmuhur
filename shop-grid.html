@@ -498,11 +498,11 @@
         <div class="container">
           <div class="footer-top-newsletter py-80 mb-75">
             <div class="section-title">
-              <h2>Newsletter Subscribe</h2>
+              <h2 data-i18n="news">Newsletter Subscribe</h2>
             </div>
             <form action="#">
               <input type="email" placeholder="Email Address" required />
-              <button class="theme-btn">
+              <button class="theme-btn" data-i18n="subscribeNow">
                 subscribe now <i class="fas fa-angle-double-right"></i>
               </button>
             </form>
@@ -515,13 +515,14 @@
                     <img src="assets/images/logos/logoS.webp" alt="Logo" />
                   </a>
                 </div>
-                <p>
-                  Sit amet consectetur adipiscing elit sed eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. quis ipsum
-                  suspendisse ultrices gravida.
+                <p data-i18n="footerText">
+                  Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000
+                  Şehitkamil/Gaziantep - TÜRKİYE
                 </p>
                 <div class="social-style-two pt-10">
-                  <a href="contact.html"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/Elmuhur/" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
                   <a href="contact.html"><i class="fab fa-twitter"></i></a>
                   <a href="contact.html"><i class="fab fa-linkedin-in"></i></a>
                   <a href="contact.html"><i class="fab fa-youtube"></i></a>
@@ -530,18 +531,47 @@
             </div>
             <div class="col-lg-4 col-md-6 order-md-1">
               <div class="footer-widget menu-widget two-column">
-                <h4 class="footer-title">Quick Links</h4>
+                <h4 class="footer-title" data-i18n="quickLinks">Quick Links</h4>
                 <ul>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="contact.html">Documentation</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="services.html">Elements</a></li>
-                  <li><a href="portfolio-grid.html">Our Projects</a></li>
-                  <li><a href="shop-grid.html">Best Products</a></li>
-                  <li><a href="farmers.html">Meet Farmers</a></li>
-                  <li><a href="service-details.html">Technology</a></li>
-                  <li><a href="blog-grid.html">Latest News</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li>
+                    <a href="#about" data-i18n="aboutFooter">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#contact" data-i18n="documentFooter"
+                      >Documentation</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#services" data-i18n="servicesFooter">Services</a>
+                  </li>
+                  <li>
+                    <a href="#services" data-i18n="elementsFooter">Elements</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio-grid" data-i18n="projectsFooter"
+                      >Our Projects</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#shop-grid" data-i18n="bestProducts"
+                      >Best Products</a
+                    >
+                  </li>
+                  <li>
+                    <a href="service-details.html" data-i18n="techFooter"
+                      >Technology</a
+                    >
+                  </li>
+                  <li>
+                    <a href="blog-grid.html" data-i18n="latestFooter"
+                      >Latest News</a
+                    >
+                  </li>
+                  <li>
+                    <a href="contact.html" data-i18n="contactFooter"
+                      >Contact Us</a
+                    >
+                  </li>
                   <li><a href="service-details.html">Vegetables</a></li>
                   <li><a href="contact.html">Setting & Privacy</a></li>
                 </ul>
@@ -549,8 +579,10 @@
             </div>
             <div class="col-lg-4 col-md-6 order-md-3">
               <div class="footer-widget contact-widget">
-                <h4 class="footer-title">Contact Us</h4>
-                <p>
+                <h4 class="footer-title" data-i18n="contactFooter">
+                  Contact Us
+                </h4>
+                <p data-i18n="footerTitle">
                   Quis autem vel eum reprehenderit voluptate velit esse quamnue
                 </p>
                 <ul>
@@ -559,12 +591,14 @@
                     53 Main Street, 2nd Mountain 3rd Floor, New York
                   </li>
                   <li>
-                    <i class="far fa-envelope"></i>
-                    <a href="calto:+012(345)67899">+012 (345) 678 99</a>
+                    <i class="far fa-phone"></i>
+                    <a href="calto:+012(345)67899"> (+90) 539 626 27 36</a>
                   </li>
                   <li>
-                    <i class="far fa-phone"></i>
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:info@bloudanfood.com"
+                      >info@bloudanfood.com</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -637,6 +671,8 @@
     <!--  WOW Animation -->
     <script src="assets/js/wow.min.js"></script>
     <!-- Custom script -->
+    <script src="assets/js/main.js" type="module"></script>
     <script src="assets/js/script.js"></script>
+    
   </body>
 </html>
