@@ -293,7 +293,7 @@ input[type=checkbox], input[type=radio] {
   font-size: 30px;
   display: inline-block;
   color: #ff7800;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Livvic", sans-serif;
   text-transform: capitalize; }
   @media only screen and (max-width: 575px) {
     .sub-title {
