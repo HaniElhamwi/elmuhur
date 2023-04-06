@@ -30,6 +30,6 @@ const setLanguage = (language) => {
   });
   document.dir = language === "ar" ? "rtl" : "ltr";
 
-  document.body.style.textAlign = lang ? 'right' : "left"
+  document.body.style.textAlign = lang === 'ar' ? 'right' : "left"
 
 };
