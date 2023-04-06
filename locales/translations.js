@@ -40,7 +40,7 @@ const translations = {
     categoryWrap6: "SAUCE",
     /* aboutCompany */
     aboutCompany: "About Company",
-    aboutHeading: "Organic & Helathy Foods Provider Farming",
+    aboutHeading: "Al-Mahour Company for Food Industries established its factory in Gaziantep in 2017, when the company started producing one item at that time, which is (date syrup) and began exporting its product to the State of Iraq only.",
     /* tab */
     agriculture1: "Agriculture Foods",
     vegetables1: "Vegetables Fruits",
@@ -169,7 +169,7 @@ const translations = {
     categoryWrap6: "صلصة",
     /* aboutCompany */
     aboutCompany: "عن الشركة",
-    aboutHeading: "الزراعة الموفرة للأغذية العضوية والصحية",
+    aboutHeading: "أسست شركة المهور للصناعات الغذائية مصنعها في مدينة غازي عنتاب عام 2017 حيث بدأت الشركة بإنتاج صنف واحد في ذلك الوقت وهو (دبس التمر) وبدأت بتصدير منتجها إلى دولة العراق فقط.",
 
     /* tab */
     agriculture1: "أغذية الزراعة",
