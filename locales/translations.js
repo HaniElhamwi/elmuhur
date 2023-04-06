@@ -10,7 +10,7 @@ const translations = {
     contact: "contact",
     selectLanguage: "Select a language",
     email_us: "Email Us",
-    gallery:"media",
+    gallery: "media",
     working_hours: "Working Hours",
     consultations: "consultations",
     /* slider one in landing page */
@@ -26,7 +26,8 @@ const translations = {
     sliderTwoHref: "Connect us",
     sliderTwoLearn: "about company",
     /* category */
-    categoryHeading: "To provide you with high quality food products and delicious canned foods that meet your nutritional needs.",
+    categoryHeading:
+      "To provide you with high quality food products and delicious canned foods that meet your nutritional needs.",
     categorySpan: "Welcome! We are proud of our site!",
     categoryText:
       " On the other hand we denounce with righteou indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire",
@@ -50,8 +51,8 @@ const translations = {
     ceo: "CEO & Founder",
 
     /* popular */
-    popularSpan: "Popular Foods and Vegetables",
-    popularHeading: "Quality Fruits & Vegetables",
+    popularSpan: "Our company",
+    popularHeading: "offers a variety of food cans, including dried vegetables, tomato paste, pepper, molasses and vinegar. We use the finest ingredients to prepare the preserves, and adhere to modern processing techniques to preserve the quality and natural flavor of the products.",
 
     /* popular product */
     popularProduct1: "Organic Brocolli",
@@ -61,10 +62,10 @@ const translations = {
     popularProduct5: "Fresh Gooseberry",
     popularProduct6: "Fresh Croissants",
     popularProduct7: "Chiken Egg’s",
-    popularOffer1:"offer 45%",
-    popularOffer2:"offer 20%",
-    popularOffer3:"offer 30%",
-    popularOffer4:"offer 50%",
+    popularOffer1: "offer 45%",
+    popularOffer2: "offer 20%",
+    popularOffer3: "offer 30%",
+    popularOffer4: "offer 50%",
 
     /* cta */
     cta: "Need any Supports",
@@ -110,7 +111,6 @@ const translations = {
     latestFooter: "Latest News",
     contactFooter: "Contact Us",
 
-
     footerStreet: "53 Main Street, 2nd Mountain 3rd Floor, New York",
     footerPhone: "",
     footerCopy: "Copyright © 2022 MunFirm. All Rights Reserved.",
@@ -118,7 +118,7 @@ const translations = {
     footerFaq: "Faqs",
     Footerpayment: "Payments",
 
-    langBtn:"عربي",
+    langBtn: "عربي",
 
     /* CAnned food */
     canned_product_1: "Lupine beans",
@@ -130,7 +130,7 @@ const translations = {
     canned_product_7: "Artishoke",
     canned_product_8: "Grilled Eggplant",
 
-    copyright:"Copyright © 2023 Elmuhur. All Rights Reserved"
+    copyright: "Copyright © 2023 Elmuhur. All Rights Reserved",
   },
   ar: {
     /* navbar */
@@ -140,7 +140,7 @@ const translations = {
     portfolio: "اعمالنا",
     products: "منتجاتنا",
     email_us: "البريد الالكتروني",
-    gallery:"الوسائط",
+    gallery: "الوسائط",
     contact: "تواصل معنا",
     selectLanguage: "إختر لغة",
     working_hours: "ساعات العمل",
@@ -158,9 +158,10 @@ const translations = {
     sliderTwoHref: "تواصل معنا",
     sliderTwoLearn: "عن الشركة",
     /* category */
-    categoryHeading: "بأن نقدم لكم منتجات غذائية عالية الجودة ومعلبات لذيذة تلبي احتياجاتكم الغذائية.",
+    categoryHeading:
+      "بأن نقدم لكم منتجات غذائية عالية الجودة ومعلبات لذيذة تلبي احتياجاتكم الغذائية.",
     categorySpan: "مرحبًا ! نحن في موقعنا نفتخر",
-    categoryWrap1: "مربيات", 
+    categoryWrap1: "مربيات",
     categoryWrap2: "اغذية معلبة",
     categoryWrap3: "الدبس",
     categoryWrap4: "زيت الزيتون والخل",
@@ -181,8 +182,9 @@ const translations = {
     ceo: "الرئيس التنفيذي والمؤسس",
 
     /* popular */
-    popularSpan: "الأطعمة الشعبية والخضروات",
-    popularHeading: "فواكه وخضروات عالية الجودة",
+    popularSpan: "تقدم شركتنا",
+    popularHeading:
+      "مجموعة متنوعة من المعلبات الغذائية، بما في ذلك الخضروات والمجففات ومعجون الطماطم و الفليفلة و الدبس و الخل. نحن نستخدم أجود المكونات لإعداد المعلبات، ونلتزم بتقنيات معالجة حديثة للحفاظ على الجودة والنكهة الطبيعية للمنتجات.",
 
     /* popular product */
     popularProduct1: "بروكلي عضوي",
@@ -192,10 +194,10 @@ const translations = {
     popularProduct5: "عنب الثعلب الطازج ",
     popularProduct6: "عنب الثعلب الطازج ",
     popularProduct7: "عنب الثعلب الطازج ",
-    popularOffer1:"خصم 45%",
-    popularOffer2:"خصم 20%",
-    popularOffer3:"خصم 30%",
-    popularOffer4:"خصم 50%",
+    popularOffer1: "خصم 45%",
+    popularOffer2: "خصم 20%",
+    popularOffer3: "خصم 30%",
+    popularOffer4: "خصم 50%",
 
     /* cta */
     cta: "هل تحتاج اي دعم",
@@ -231,8 +233,7 @@ const translations = {
     footerFaq: "تذييل",
     Footerpayment: "المدفوعات",
 
-    langBtn:"En",
-
+    langBtn: "En",
 
     /* Canned food */
     canned_product_1: "حبوب الترمس",
@@ -244,8 +245,7 @@ const translations = {
     canned_product_7: "خرشوف",
     canned_product_8: "باذنجان مشوي",
 
-    copyright:"جميع الحقوق محفوظة لشركة المهور ٢٠٢٣ "
-
+    copyright: "جميع الحقوق محفوظة لشركة المهور ٢٠٢٣ ",
   },
 };
 
