@@ -63,9 +63,9 @@ const translations = {
     popularProduct2: "Fresh Carrots",
     popularProduct3: "Organic Brocolli",
     popularProduct4: "Chiken Egg",
-    popularProduct5: "Fresh Gooseberry",
+    /*popularProduct5: "Fresh Gooseberry",
     popularProduct6: "Fresh Croissants",
-    popularProduct7: "Chiken Egg’s",
+    popularProduct7: "Chiken Egg’s",*/
     popularOffer1: "offer 45%",
     popularOffer2: "offer 20%",
     popularOffer3: "offer 30%",
