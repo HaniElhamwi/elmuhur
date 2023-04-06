@@ -121,7 +121,17 @@ const translations = {
     footerFaq: "Faqs",
     Footerpayment: "Payments",
 
-    langBtn:"عربي"
+    langBtn:"عربي",
+
+    /* CAnned food */
+    canned_product_1: "Lupine beans",
+    canned_product_2: "Kidney Bean",
+    canned_product_3: "Sliced mushroom",
+    canned_product_4: "Chickpeas",
+    canned_product_5: "Kidney Bean",
+    canned_product_6: "Fava beans",
+    canned_product_7: "Artishoke",
+    canned_product_8: "Grilled Eggplant",
   },
   ar: {
     /* navbar */
@@ -242,7 +252,18 @@ const translations = {
     footerFaq: "تذييل",
     Footerpayment: "المدفوعات",
 
-    langBtn:"En"
+    langBtn:"En",
+
+
+    /* Canned food */
+    canned_product_1: "حبوب الترمس",
+    canned_product_2: "فطر الحبوب",
+    canned_product_3: "فطر مقطع",
+    canned_product_4: "حمص",
+    canned_product_5: "فاصوليا ذات الشكل الكلوي",
+    canned_product_6: "فول مدمس",
+    canned_product_7: "خرشوف",
+    canned_product_8: "باذنجان مشوي",
 
   },
 };
