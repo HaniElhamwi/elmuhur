@@ -6803,7 +6803,6 @@ blockquote {
     width: 50%; }
 
 .footer-logo a {
-  background: white;
   border-radius: 7px;
   padding: 20px 35px;
   display: inline-block; }
@@ -6821,7 +6820,7 @@ blockquote {
       margin-bottom: 15px; }
     .contact-widget ul li i {
       font-size: 18px;
-      margin: 6px 15px 0 0; }
+      margin: 6px 15px 0 15px; }
 
 .news-widget li {
   display: -webkit-box;

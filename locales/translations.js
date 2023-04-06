@@ -20,14 +20,14 @@ const translations = {
     sliderOneHref: "Connect us",
     sliderOneLearn: "about company",
     /* slider Two in landing page */
-    sliderTwoWelcome: "Welcome to Elmuhur",
-    sliderTwoHeading: "Organic Foods & Vegetables",
-    sliderTwoText: "25 Years of experience in agriculture farming",
+    sliderTwoWelcome: "The best products",
+    sliderTwoHeading: "Food products that meet your needs",
+    sliderTwoText: "Made with the latest technology and using the finest crops",
     sliderTwoHref: "Connect us",
     sliderTwoLearn: "about company",
     /* category */
-    categoryHeading: "Quality Fruits & Vegetables",
-    categorySpan: "Popular Foods and Vegetables",
+    categoryHeading: "To provide you with high quality food products and delicious canned foods that meet your nutritional needs.",
+    categorySpan: "Welcome! We are proud of our site!",
     categoryText:
       " On the other hand we denounce with righteou indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire",
     /* category wrap */
@@ -68,7 +68,6 @@ const translations = {
 
     /* cta */
     cta: "Need any Supports",
-    ctaHeading: "Get Our Quality Foods",
     ctaBtn: "Get In Touch",
 
     /* photo */
@@ -100,7 +99,6 @@ const translations = {
     footerText:
       "Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
 
-    footerText: "تيست",
     quickLinks: "Quick Links",
     aboutFooter: "About Us",
     documentFooter: "Documentation",
@@ -112,8 +110,7 @@ const translations = {
     latestFooter: "Latest News",
     contactFooter: "Contact Us",
 
-    footerTitle:
-      " Quis autem vel eum reprehenderit voluptate velit esse quamnue",
+
     footerStreet: "53 Main Street, 2nd Mountain 3rd Floor, New York",
     footerPhone: "",
     footerCopy: "Copyright © 2022 MunFirm. All Rights Reserved.",
@@ -132,6 +129,8 @@ const translations = {
     canned_product_6: "Fava beans",
     canned_product_7: "Artishoke",
     canned_product_8: "Grilled Eggplant",
+
+    copyright:"Copyright © 2023 Elmuhur. All Rights Reserved"
   },
   ar: {
     /* navbar */
@@ -153,19 +152,17 @@ const translations = {
     sliderOneHref: "تواصل معنا",
     sliderOneLearn: "عن الشركة",
     /* slider Two in landing page */
-    sliderTwoWelcome: "مرحبا بكم في المهور",
-    sliderTwoHeading: "أغذية عضوية وخضروات",
-    sliderTwoText: "25 عاما من الخبرة في الزراعة والزراعة",
+    sliderTwoWelcome: "أفضل المنتجات",
+    sliderTwoHeading: "منتجات غذائية تلبي إحتياجاتكم",
+    sliderTwoText: "صنعت بأحدث التقنيات و بأستخدام أجود المحاصيل",
     sliderTwoHref: "تواصل معنا",
     sliderTwoLearn: "عن الشركة",
     /* category */
-    categoryHeading: "فواكه وخضروات عالية الجودة",
-    categorySpan: "الأطعمة الشعبية والخضروات",
-    categoryText:
-      " من ناحية أخرى ندين مع الصالحين السخط ويكرهون الرجال الذين أذهلتهم سحر متعة اللحظة وأعمتهم الرغبة",
-    categoryWrap1: "مربى الفراولة",
-    categoryWrap2: "مربى",
-    categoryWrap3: "دبس السكر",
+    categoryHeading: "بأن نقدم لكم منتجات غذائية عالية الجودة ومعلبات لذيذة تلبي احتياجاتكم الغذائية.",
+    categorySpan: "مرحبًا ! نحن في موقعنا نفتخر",
+    categoryWrap1: "مربيات", 
+    categoryWrap2: "اغذية معلبة",
+    categoryWrap3: "الدبس",
     categoryWrap4: "زيت الزيتون والخل",
     categoryWrap5: "معجون",
     categoryWrap6: "صلصة",
@@ -202,27 +199,10 @@ const translations = {
 
     /* cta */
     cta: "هل تحتاج اي دعم",
-    ctaHeading: "احصل على أطعمتنا عالية الجودة",
     ctaBtn: "ابق على اتصال",
 
     photoGallerySpan: "معرض الصور",
     photoGalleryHeading: "معرض الصور في الموقع",
-
-    /* gallery */
-    galleryHeading1: "فواكه عضوية",
-    galleryText1: "طعام طازج",
-    /* gallery */
-    galleryHeading2: "فواكه عضوية",
-    galleryText2: "طعام طازج",
-    /* gallery */
-    galleryHeading3: "فواكه عضوية",
-    galleryText3: "طعام طازج",
-    /* gallery */
-    galleryHeading4: "فواكه عضوية",
-    galleryText4: "طعام طازج",
-    /* gallery */
-    galleryHeading5: "فواكه عضوية",
-    galleryText5: "طعام طازج",
 
     /* NewSellter */
     news: "إشتراك النشرة الأخبارية",
@@ -244,7 +224,6 @@ const translations = {
     contactFooter: "اتصل بنا",
 
     /* footer title */
-    footerTitle: "لكن من يستطيع حتى أن ينتقده بسبب المتعة التي يريدها؟",
     footerStreet: "53 Main Street، 2nd Mountain 3rd Floor، نيويورك",
     footerPhone: "(+90) 539 626 27 36",
     footerCopy: "حقوق النشر © 2022 MunFirm. كل الحقوق محفوظة.",
@@ -264,6 +243,8 @@ const translations = {
     canned_product_6: "فول مدمس",
     canned_product_7: "خرشوف",
     canned_product_8: "باذنجان مشوي",
+
+    copyright:"جميع الحقوق محفوظة لشركة المهور ٢٠٢٣ "
 
   },
 };
