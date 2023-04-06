@@ -10,6 +10,7 @@ const translations = {
     contact: "contact",
     selectLanguage: "Select a language",
     email_us: "Email Us",
+    gallery:"media",
     working_hours: "Working Hours",
     consultations: "consultations",
     /* slider one in landing page */
@@ -129,8 +130,8 @@ const translations = {
     service: "الخدمات",
     portfolio: "اعمالنا",
     products: "منتجاتنا",
-    contact: "contact",
     email_us: "البريد الالكتروني",
+    gallery:"الوسائط",
     contact: "تواصل معنا",
     selectLanguage: "إختر لغة",
     working_hours: "ساعات العمل",
