@@ -4269,6 +4269,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
     position: relative;
     margin-bottom: 15px; }
     .product-item .image img {
+
       top: 50%;
       left: 50%;
       position: absolute;
@@ -4276,6 +4277,12 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
+      @media (max-width:500px) {
+        .product-item .image img {
+
+          width:70%
+        }
+      }
   .product-item h5 {
     font-size: 22px;
     margin-top: 4px;
