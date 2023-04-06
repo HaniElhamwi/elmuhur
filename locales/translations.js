@@ -60,6 +60,10 @@ const translations = {
     popularProduct5: "Fresh Gooseberry",
     popularProduct6: "Fresh Croissants",
     popularProduct7: "Chiken Egg’s",
+    popularOffer1:"offer 45%",
+    popularOffer2:"offer 20%",
+    popularOffer3:"offer 30%",
+    popularOffer4:"offer 50%",
 
     /* cta */
     cta: "Need any Supports",
@@ -180,6 +184,10 @@ const translations = {
     popularProduct5: "عنب الثعلب الطازج ",
     popularProduct6: "عنب الثعلب الطازج ",
     popularProduct7: "عنب الثعلب الطازج ",
+    popularOffer1:"خصم 45%",
+    popularOffer2:"خصم 20%",
+    popularOffer3:"خصم 30%",
+    popularOffer4:"خصم 50%",
 
     /* cta */
     cta: "هل تحتاج اي دعم",
