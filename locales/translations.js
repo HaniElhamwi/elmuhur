@@ -44,6 +44,7 @@ const translations = {
     aboutHeading2: "After that, the company established its machines and produced items such as jams and other pastes.",
     aboutHeading3: "The company's management changed in 2021 and began to develop its products and human cadres, as the number of its products reached 40 products, including jams of all kinds, vinegar of all kinds, canned mushrooms, tomato paste, pepper sauce and other food products, as our products have obtained Turkish and international health and food certificates.",
     aboutHeading4: "Our company was founded on the basis of our love for producing healthy and natural food, and our vision to provide products that satisfy the tastes of our customers and meet their nutritional needs. We rely on natural and locally sourced ingredients, and follow strict quality and food safety standards at all stages of our production.",
+    aboutAuthor:"Founder's word",
     /* tab */
     agriculture1: "Agriculture Foods",
     vegetables1: "Vegetables Fruits",
@@ -178,6 +179,7 @@ const translations = {
     aboutHeading2: "قامت الشركة بعد ذلك بتطوير اّلاتها وإنتاج أصناف أخرى كالمربيات ومعجون الطماطم.",
     aboutHeading3: "تغيرت إدارة الشركة عام 2021 وبدأت بتطوير منتجاتها وكوادرها البشرية حيث وصل عدد منتجاتها إلى 40 منتج منها المربيات بجميع أنواعها والخل بجميع أنواعه والفطر المعلب ومعجون الطماطم وصلصة الفليفلة وغيرها من المنتجات الغذائية حيث حازت منتجاتنا على شهادات صحية وغذائية تركية وعالمية",
     aboutHeading4: "تأسست شركتنا على أساس حبنا لإنتاج طعام صحي وطبيعي، ورؤيتنا  لتوفير منتجات ترضي أذواق عملائنا وتلبي احتياجاتهم الغذائية. نحن نعتمد على مكونات طبيعية ومحلية المنشأ، ونتبع معايير صارمة للجودة والسلامة الغذائية في جميع مراحل إنتاجنا.",
+    aboutAuthor:"كلمة المؤسس",
 
     /* tab */
     agriculture1: "أغذية الزراعة",
