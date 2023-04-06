@@ -199,11 +199,11 @@ const translations = {
     /* popular product */
     popularProduct1: " الطماطم و الفليفلة",
     popularProduct2: "جزر طازج",
-    popularProduct3: "بيض الدجاجه",
+    popularProduct3: "الدبس ",
     popularProduct4: " مربيات",
     popularProduct5: "عنب الثعلب الطازج ",
     popularProduct6: "عنب الثعلب الطازج ",
-    popularProduct7: "عنب الثعلب الطازج ",
+    popularProduct7: "زيت الزيتون و الخل",
     popularOffer1: "خصم 45%",
     popularOffer2: "خصم 20%",
     popularOffer3: "خصم 30%",
@@ -211,7 +211,7 @@ const translations = {
 
     /* cta */
     cta: "هل تحتاج اي دعم",
-    ctaBtn: "ابق على اتصال",
+    ctaBtn: "تواصل معنا",
 
     photoGallerySpan: "معرض الصور",
     photoGalleryHeading: "معرض الصور في الموقع",
