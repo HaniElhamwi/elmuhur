@@ -63,9 +63,9 @@ const translations = {
     popularProduct2: "Fresh Carrots",
     popularProduct3: "Organic Brocolli",
     popularProduct4: "Chiken Egg",
-    /*popularProduct5: "Fresh Gooseberry",
+    popularProduct5: "Fresh Gooseberry",
     popularProduct6: "Fresh Croissants",
-    popularProduct7: "Chiken Egg’s",*/
+    popularProduct7: "Chiken Egg’s",
     popularOffer1: "offer 45%",
     popularOffer2: "offer 20%",
     popularOffer3: "offer 30%",
@@ -197,13 +197,13 @@ const translations = {
       "مجموعة متنوعة من المعلبات الغذائية، بما في ذلك الخضروات والمجففات ومعجون الطماطم و الفليفلة و الدبس و الخل. نحن نستخدم أجود المكونات لإعداد المعلبات، ونلتزم بتقنيات معالجة حديثة للحفاظ على الجودة والنكهة الطبيعية للمنتجات.",
 
     /* popular product */
-    popularProduct1: "بروكلي عضوي",
+    popularProduct1: " الطماطم و الفليفلة",
     popularProduct2: "جزر طازج",
     popularProduct3: "بيض الدجاجه",
-    popularProduct4: "بروكلي عضوي",
-    /*popularProduct5: "عنب الثعلب الطازج ",
+    popularProduct4: " مربيات",
+    popularProduct5: "عنب الثعلب الطازج ",
     popularProduct6: "عنب الثعلب الطازج ",
-    popularProduct7: "عنب الثعلب الطازج ",*/
+    popularProduct7: "عنب الثعلب الطازج ",
     popularOffer1: "خصم 45%",
     popularOffer2: "خصم 20%",
     popularOffer3: "خصم 30%",
