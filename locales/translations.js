@@ -197,11 +197,11 @@ const translations = {
       "مجموعة متنوعة من المعلبات الغذائية، بما في ذلك الخضروات والمجففات ومعجون الطماطم و الفليفلة و الدبس و الخل. نحن نستخدم أجود المكونات لإعداد المعلبات، ونلتزم بتقنيات معالجة حديثة للحفاظ على الجودة والنكهة الطبيعية للمنتجات.",
 
     /* popular product */
-    popularProduct1: " الطماطم و الفليفلة",
-    popularProduct2: "جزر طازج",
-    popularProduct3: "الدبس ",
-    popularProduct4: " مربيات",
-    popularProduct5: " اغذية معلبة",
+    popularProduct1: "مربيات",
+    popularProduct2: " زيت و خل",
+    popularProduct3: "أغذية معلبة ",
+    popularProduct4: " معجون طماطم و الفليفلة",
+    popularProduct5: "الدبس",
     popularProduct6: "صلصات",
     popularProduct7: "زيت الزيتون و الخل",
     popularOffer1: "خصم 45%",
