@@ -6408,6 +6408,7 @@ blockquote {
 /*******************************************************/
 /***************** 27. Contact Section *****************/
 /*******************************************************/
+
 @media only screen and (min-width: 1200px) {
   .contact-title h3 {
     font-size: 35px; } }
@@ -6446,6 +6447,10 @@ blockquote {
     -webkit-box-shadow: 10px 0 60px rgba(34, 34, 34, 0.1);
     box-shadow: 10px 0 60px rgba(34, 34, 34, 0.1); }
 
+.ar .contact-info-item .icon{
+  margin-right: 0px;
+  margin-left: 30px;
+}
 .contact-right-image {
   z-index: 1;
   max-width: 570px;

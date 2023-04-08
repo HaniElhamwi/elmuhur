@@ -135,6 +135,19 @@ const translations = {
     canned_product_8: "Grilled Eggplant",
 
     copyright: "Copyright © 2023 Elmuhur. All Rights Reserved",
+
+    /* contact */
+    contactHeading:"Get In Touch",
+    contactSpan:"Need any Supports ?",
+    contacLoactionHead:"Location",
+    contactLocation:"Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
+    contactEmailUs:"Email Us",
+    contactPhoneUs:"Phone Us",
+
+
+    contactWithUs:"Contact With Us",
+    contactSendMessage:"Send Us Message",
+    contactButton:"Send Message"
   },
   ar: {
     /* navbar */
@@ -254,6 +267,19 @@ const translations = {
     canned_product_6: "فول مدمس",
     canned_product_7: "خرشوف",
     canned_product_8: "باذنجان مشوي",
+
+    /* Contact US */
+    contactHeading:"ابقى على تواصل",
+    contactSpan:"هل تحتاج إلى أي دعامات؟",
+    contacLoactionHead:"موقع",
+    contactLocation:"Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
+    contactEmailUs:"ارسل لنا عبر البريد الإلكتروني",
+    contactPhoneUs:"اتصل بنا",
+
+    /* Contact us 2 */
+    contactWithUs:"اتصل بنا",
+    contactSendMessage:"أرسل لنا رسالة",
+    contactButton:"أرسل لنا رسالة",
 
     copyright: "جميع الحقوق محفوظة لشركة المهور ٢٠٢٣ ",
   },

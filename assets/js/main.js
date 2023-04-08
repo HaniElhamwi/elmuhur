@@ -22,6 +22,8 @@ btn.addEventListener('click', () => {
 
 
 
+
+
 const setLanguage = (language) => {
   const elements = document.querySelectorAll("[data-i18n]");
   elements.forEach((element) => {
@@ -29,7 +31,13 @@ const setLanguage = (language) => {
     element.textContent = translations[language][translationKey];
   });
   document.dir = language === "ar" ? "rtl" : "ltr";
-
+  
   document.body.style.textAlign = lang === 'ar' ? 'right' : "left"
-
+  document.body.classList.add(lang === 'ar' ? 'ar' : "en")
+  if (lang === "ar") {
+    document.getElementById("name").placeholder = "اسمك بالكامل";
+    document.getElementById("phone").placeholder = "رقم الهاتف";
+    document.getElementById("email").placeholder = "البريد الالكتروني";
+    document.getElementById("message").placeholder = "كتابة رسالة";
+  }
 };
