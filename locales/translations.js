@@ -32,6 +32,7 @@ const translations = {
     categoryText:
       " On the other hand we denounce with righteou indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire",
     /* category wrap */
+    categoryWrap0: "CANNED FOOD",
     categoryWrap1: "Strawberry jam",
     categoryWrap2: "JAM",
     categoryWrap3: "MOLASESS",
@@ -178,6 +179,7 @@ const translations = {
     categoryHeading:
       "بأن نقدم لكم منتجات غذائية عالية الجودة ومعلبات لذيذة تلبي احتياجاتكم الغذائية.",
     categorySpan: "مرحبًا ! نحن في موقعنا نفتخر",
+    categoryWrap0: "معجون الطماطم والفليفلة ",
     categoryWrap1: "مربيات",
     categoryWrap2: "اغذية معلبة",
     categoryWrap3: "الدبس",
