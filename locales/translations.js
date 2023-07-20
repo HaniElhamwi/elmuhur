@@ -35,17 +35,21 @@ const translations = {
     categoryWrap0: "CANNED FOOD",
     categoryWrap1: "Strawberry jam",
     categoryWrap2: "JAM",
-    categoryWrap3: "MOLASESS",
+    categoryWrap3: "Jam",
     categoryWrap4: "OLIVE OIL AND VINEGAR",
     categoryWrap5: "PASTE",
     categoryWrap6: "SAUCE",
     /* aboutCompany */
     aboutCompany: "About Company",
-    aboutHeading: "Al-Mahour Company for Food Industries established its factory in Gaziantep in 2017, when the company started producing one item at that time, which is (date syrup) and began exporting its product to the State of Iraq only.",
-    aboutHeading2: "After that, the company established its machines and produced items such as jams and other pastes.",
-    aboutHeading3: "The company's management changed in 2021 and began to develop its products and human cadres, as the number of its products reached 40 products, including jams of all kinds, vinegar of all kinds, canned mushrooms, tomato paste, pepper sauce and other food products, as our products have obtained Turkish and international health and food certificates.",
-    aboutHeading4: "Our company was founded on the basis of our love for producing healthy and natural food, and our vision to provide products that satisfy the tastes of our customers and meet their nutritional needs. We rely on natural and locally sourced ingredients, and follow strict quality and food safety standards at all stages of our production.",
-    aboutAuthor:"Founder's word",
+    aboutHeading:
+      "Al-Mahour Company for Food Industries established its factory in Gaziantep in 2017, when the company started producing one item at that time, which is (date syrup) and began exporting its product to the State of Iraq only.",
+    aboutHeading2:
+      "After that, the company established its machines and produced items such as jams and other pastes.",
+    aboutHeading3:
+      "The company's management changed in 2021 and began to develop its products and human cadres, as the number of its products reached 40 products, including jams of all kinds, vinegar of all kinds, canned mushrooms, tomato paste, pepper sauce and other food products, as our products have obtained Turkish and international health and food certificates.",
+    aboutHeading4:
+      "Our company was founded on the basis of our love for producing healthy and natural food, and our vision to provide products that satisfy the tastes of our customers and meet their nutritional needs. We rely on natural and locally sourced ingredients, and follow strict quality and food safety standards at all stages of our production.",
+    aboutAuthor: "Founder's word",
     /* tab */
     agriculture1: "Agriculture Foods",
     vegetables1: "Vegetables Fruits",
@@ -57,7 +61,8 @@ const translations = {
 
     /* popular */
     popularSpan: "Our company",
-    popularHeading: "offers a variety of food cans, including dried vegetables, tomato paste, pepper, molasses and vinegar. We use the finest ingredients to prepare the preserves, and adhere to modern processing techniques to preserve the quality and natural flavor of the products.",
+    popularHeading:
+      "offers a variety of food cans, including dried vegetables, tomato paste, pepper, molasses and vinegar. We use the finest ingredients to prepare the preserves, and adhere to modern processing techniques to preserve the quality and natural flavor of the products.",
 
     /* popular product */
     popularProduct1: "Organic Brocolli",
@@ -138,21 +143,63 @@ const translations = {
     copyright: "Copyright © 2023 Elmuhur. All Rights Reserved",
 
     /* contact */
-    contactHeading:"Get In Touch",
-    contactSpan:"Need any Supports ?",
-    contacLoactionHead:"Location",
-    contactLocation:"Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
-    contactEmailUs:"Email Us",
-    contactPhoneUs:"Phone Us",
+    contactHeading: "Get In Touch",
+    contactSpan: "Need any Supports ?",
+    contacLoactionHead: "Location",
+    contactLocation:
+      "Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
+    contactEmailUs: "Email Us",
+    contactPhoneUs: "Phone Us",
 
-
-    contactWithUs:"Contact With Us",
-    contactSendMessage:"Send Us Message",
-    contactButton:"Send Message"
+    contactWithUs: "Contact With Us",
+    contactSendMessage: "Send Us Message",
+    contactButton: "Send Message",
+    CONTACT_WITH_US: "Contact With Us",
+    SEND_US_MESSAGE: "Send Us Message",
+    SEND_MESSAGE: "Send A Message",
+    HOME: "Home",
+    CONTACT_US: "Contact Us",
+    GET_IN_TOUCH: "Get In Touch",
+    CONTACT_US: "Contact Us",
+    NEED_CONSULT: "Need Consultations ",
+    LOCATION: "Location",
+    EMAIL_US: "Email us",
+    PHONE_US: "Phone",
+    TOMATO_PASTE_PAPER: "Tomato Paste And Paper",
+    canned_product_100: "Tomato paste",
+    canned_product_101: "capsicum paste",
+    CANNED_FOOD: "Canned Food",
+    canned_product_102: "mushroom",
+    canned_product_103: "Canned beans and chickpeas",
+    canned_product_104: "canned halva",
+    canned_product_105: "All Jam Types",
+    canned_product_106: "Bloudan Jam",
+    canned_product_107: "Apple cider vinegar",
   },
   ar: {
-    /* navbar */
+    canned_product_102: "فطر",
+    canned_product_107: "خل التفاج",
+    canned_product_106: "مربى بلودان الشهير ",
+    canned_product_105: "جميع انواع المربى",
+    canned_product_104: "الحلاوة المعلبة",
+    canned_product_103: "الفول والحمص المعلب",
+
+    CANNED_FOOD: "طعام معلب",
+    canned_product_101: "معجون الفليفلة",
+    canned_product_100: "معجون البندورة",
+    TOMATO_PASTE_PAPER: "معجون الطماطم والفليفلة",
+    EMAIL_US: "  البريد الإلكتروني",
+    PHONE_US: "التلفون",
+    LOCATION: "الموقع",
+    NEED_CONSULT: "بحاجة الى استشارات",
+
+    CONTACT_US: "اتصل بنا",
+    GET_IN_TOUCH: "ابقى على تواصل",
+    CONTACT_US: "اتصل بنا",
+    HOME: "الصفحة الرئيسية",
+    SEND_MESSAGE: "ارسل رسالة لنا",
     home: "الصفحة الرئيسية",
+    SEND_US_MESSAGE: "ارسل رسالة لنا",
     about: "من نحن",
     service: "الخدمات",
     portfolio: "اعمالنا",
@@ -182,19 +229,22 @@ const translations = {
     categoryWrap0: "معجون الطماطم والفليفلة ",
     categoryWrap1: "مربيات",
     categoryWrap2: "اغذية معلبة",
-    categoryWrap3: "الدبس",
+    categoryWrap3: "مربى",
     categoryWrap4: "زيت الزيتون والخل",
     categoryWrap5: "معجون",
     categoryWrap6: "صلصة",
     /* aboutCompany */
     aboutCompany: "عن الشركة",
-    aboutHeading: "أسست شركة المهور للصناعات الغذائية مصنعها في مدينة غازي عنتاب عام 2017 حيث بدأت الشركة بإنتاج صنف واحد في ذلك الوقت وهو (دبس التمر) وبدأت بتصدير منتجها إلى دولة العراق فقط.",
+    aboutHeading:
+      "أسست شركة المهور للصناعات الغذائية مصنعها في مدينة غازي عنتاب عام 2017 حيث بدأت الشركة بإنتاج صنف واحد في ذلك الوقت وهو (دبس التمر) وبدأت بتصدير منتجها إلى دولة العراق فقط.",
 
-
-    aboutHeading2: "قامت الشركة بعد ذلك بتطوير اّلاتها وإنتاج أصناف أخرى كالمربيات ومعجون الطماطم.",
-    aboutHeading3: "تغيرت إدارة الشركة عام 2021 وبدأت بتطوير منتجاتها وكوادرها البشرية حيث وصل عدد منتجاتها إلى 40 منتج منها المربيات بجميع أنواعها والخل بجميع أنواعه والفطر المعلب ومعجون الطماطم وصلصة الفليفلة وغيرها من المنتجات الغذائية حيث حازت منتجاتنا على شهادات صحية وغذائية تركية وعالمية",
-    aboutHeading4: "تأسست شركتنا على أساس حبنا لإنتاج طعام صحي وطبيعي، ورؤيتنا  لتوفير منتجات ترضي أذواق عملائنا وتلبي احتياجاتهم الغذائية. نحن نعتمد على مكونات طبيعية ومحلية المنشأ، ونتبع معايير صارمة للجودة والسلامة الغذائية في جميع مراحل إنتاجنا.",
-    aboutAuthor:"كلمة المؤسس",
+    aboutHeading2:
+      "قامت الشركة بعد ذلك بتطوير اّلاتها وإنتاج أصناف أخرى كالمربيات ومعجون الطماطم.",
+    aboutHeading3:
+      "تغيرت إدارة الشركة عام 2021 وبدأت بتطوير منتجاتها وكوادرها البشرية حيث وصل عدد منتجاتها إلى 40 منتج منها المربيات بجميع أنواعها والخل بجميع أنواعه والفطر المعلب ومعجون الطماطم وصلصة الفليفلة وغيرها من المنتجات الغذائية حيث حازت منتجاتنا على شهادات صحية وغذائية تركية وعالمية",
+    aboutHeading4:
+      "تأسست شركتنا على أساس حبنا لإنتاج طعام صحي وطبيعي، ورؤيتنا  لتوفير منتجات ترضي أذواق عملائنا وتلبي احتياجاتهم الغذائية. نحن نعتمد على مكونات طبيعية ومحلية المنشأ، ونتبع معايير صارمة للجودة والسلامة الغذائية في جميع مراحل إنتاجنا.",
+    aboutAuthor: "كلمة المؤسس",
 
     /* tab */
     agriculture1: "أغذية الزراعة",
@@ -271,19 +321,20 @@ const translations = {
     canned_product_8: "باذنجان مشوي",
 
     /* Contact US */
-    contactHeading:"ابقى على تواصل",
-    contactSpan:"هل تحتاج إلى أي دعامات؟",
-    contacLoactionHead:"موقع",
-    contactLocation:"Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
-    contactEmailUs:"ارسل لنا عبر البريد الإلكتروني",
-    contactPhoneUs:"اتصل بنا",
+    contactHeading: "ابقى على تواصل",
+    contactSpan: "هل تحتاج إلى أي دعامات؟",
+    contacLoactionHead: "موقع",
+    contactLocation:
+      "Kirazlıbahçe, Gaziantep Kahramanmaraş Yolu, No:33, 27000 Şehitkamil/Gaziantep - TÜRKİYE",
+    contactEmailUs: "ارسل لنا عبر البريد الإلكتروني",
+    contactPhoneUs: "اتصل بنا",
 
     /* Contact us 2 */
-    contactWithUs:"اتصل بنا",
-    contactSendMessage:"أرسل لنا رسالة",
-    contactButton:"أرسل لنا رسالة",
-
+    contactWithUs: "اتصل بنا",
+    contactSendMessage: "أرسل لنا رسالة",
+    contactButton: "أرسل لنا رسالة",
     copyright: "جميع الحقوق محفوظة لشركة المهور ٢٠٢٣ ",
+    CONTACT_WITH_US: "تواصل معنا",
   },
 };
 
